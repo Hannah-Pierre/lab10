@@ -29,5 +29,8 @@ drawpad.create_line(40,100,100,20)
 drawpad.create_line(100,20,160,100)
 #windows & door-80pt
 drawpad.create_rectangle(80,160,110,200)
-
+drawpad.create_rectangle(50,110,70,130)
+drawpad.create_rectangle(50,140,70,160)
+drawpad.create_rectangle(120,110,140,130)
+drawpad.create_rectangle(120,140,140,160)
 root.mainloop()
