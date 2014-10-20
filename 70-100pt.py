@@ -24,18 +24,21 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 # house outline-70pt
-drawpad.create_rectangle(40,100,160,200)
+drawpad.create_rectangle(40,100,160,200,fill = 'red')
 drawpad.create_line(40,100,100,20)
 drawpad.create_line(100,20,160,100)
 #windows & door-80pt
-drawpad.create_rectangle(80,160,110,200)
-drawpad.create_rectangle(50,110,70,130)
-drawpad.create_rectangle(50,140,70,160)
-drawpad.create_rectangle(120,110,140,130)
-drawpad.create_rectangle(120,140,140,160)
+drawpad.create_rectangle(80,160,110,200,fill = 'brown')
+drawpad.create_rectangle(50,110,70,130,fill = 'white')
+drawpad.create_rectangle(50,140,70,160,fill = 'white')
+drawpad.create_rectangle(120,110,140,130,fill = 'white')
+drawpad.create_rectangle(120,140,140,160,fill = 'white')
 #door handle & chimney-90pt
-drawpad.create_oval(100,180,110,190)
+drawpad.create_oval(100,180,110,190,fill = 'yellow')
 drawpad.create_line(140,70.5,140,50)
 drawpad.create_line(140,50,160,50)
 drawpad.create_line(160,50,160,120)
+#green grass & red house-100pt
+drawpad.create_rectangle(10,200,210,210,fill = 'green')
+
 root.mainloop()
